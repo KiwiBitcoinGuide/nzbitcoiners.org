@@ -7,7 +7,7 @@ The goal is to maintain a clean and up-to-date website to connect people through
 Original code outputted from Webflow.
 
 ## Making a change
-To make a change please propose a pull request.
+To make a change please propose a pull request, or create an issue and let me know and I can make the change.
 
 ## Design
 
