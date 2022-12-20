@@ -177,11 +177,15 @@ a {
 }
 
 .hero-link.hero-link-bitcoin {
+  padding-right: 30px;
+  padding-left: 60px;
   border-radius: 100px;
 }
 
 .hero-link.hero-link-telegram {
   margin-bottom: 0px;
+  padding-right: 30px;
+  padding-left: 60px;
   border-radius: 100px;
   background-image: url('../images/hero-button-telegram.svg');
   background-position: 0px 0px;
@@ -374,7 +378,7 @@ a {
 
 .about-text {
   width: 80%;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .about-reference {
@@ -543,6 +547,10 @@ a {
   text-decoration: none;
 }
 
+.about-heading {
+  width: 80%;
+}
+
 @media screen and (max-width: 991px) {
   .section-inner-hero {
     -webkit-box-orient: vertical;
@@ -585,8 +593,15 @@ a {
     width: 100%;
   }
 
+  .hero-link.hero-link-bitcoin {
+    padding-right: 30px;
+    padding-left: 60px;
+  }
+
   .hero-link.hero-link-telegram {
     margin-bottom: 0px;
+    padding-right: 30px;
+    padding-left: 60px;
   }
 
   .hero-link-text {
@@ -711,6 +726,16 @@ a {
     border-radius: 60px;
   }
 
+  .hero-link.hero-link-bitcoin {
+    padding-right: 30px;
+    padding-left: 60px;
+  }
+
+  .hero-link.hero-link-telegram {
+    padding-right: 30px;
+    padding-left: 60px;
+  }
+
   .about-image {
     border-radius: 60px;
   }
@@ -736,16 +761,25 @@ a {
   }
 
   .hero-link.hero-link-bitcoin {
+    padding-right: 20px;
+    padding-left: 40px;
     border-radius: 100px;
   }
 
+  .hero-link.hero-link-telegram {
+    padding-right: 20px;
+    padding-left: 40px;
+  }
+
   .hero-link-text {
+    padding-left: 20px;
+    font-size: 16px;
     text-align: center;
   }
 
   .section-inner {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
   .section-title {
@@ -765,7 +799,7 @@ a {
   }
 
   .about-text {
-    margin-bottom: 0px;
+    margin-bottom: 20px;
   }
 
   .about-reference {
@@ -793,6 +827,14 @@ a {
   .nzamade-image-container {
     width: 100%;
     height: auto;
+  }
+
+  .footer-cta {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 
   .more-link {

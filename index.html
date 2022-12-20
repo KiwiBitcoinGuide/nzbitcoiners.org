@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
-<!--  Last Published: Fri Dec 16 2022 07:01:51 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Tue Dec 20 2022 03:05:58 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="6391b419017fec15333672e4" data-wf-site="6391b419017fec8c8a3672e2" lang="en">
 <head>
   <meta charset="utf-8">
@@ -19,9 +19,21 @@
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/nz-bitcoiners.webflow.css" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
-  <script type="text/javascript">WebFont.load({  google: {    families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic"]  }});</script>
+  <script type="text/javascript">
+      WebFont.load({
+        google: {
+          families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic"]
+        }
+      });
+    </script>
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
-  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <script type="text/javascript">
+      ! function(o, c) {
+        var n = c.documentElement,
+          t = " w-mod-";
+        n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
+      }(window, document);
+    </script>
   <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon">
 </head>
@@ -29,11 +41,12 @@
   <div id="home" class="wf-section">
     <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
       <div class="container w-container">
-        <a href="#" class="nav-logo w-nav-brand"><img src="images/nzbitcoiners-logo.svg" loading="lazy" alt=""></a>
+        <a href="#" class="nav-logo w-nav-brand"><img src="images/nzbitcoiners-logo.svg" loading="lazy" alt="NZ Bitcoiners logo."></a>
         <nav role="navigation" class="nav-menu w-nav-menu">
           <a href="#home" class="nav-link w-nav-link">Home</a>
           <a href="#meetups" class="nav-link w-nav-link">Meetups in NZ</a>
-          <a href="#" class="nav-link w-nav-link">Learn about Bitcoin</a>
+          <a href="#about" class="nav-link w-nav-link">Learn about Bitcoin</a>
+          <a href="#faq" class="nav-link w-nav-link">FAQ</a>
           <a href="#resources" class="nav-link w-nav-link">Resources</a>
           <a href="#nzmade" class="nav-link w-nav-link">Made in NZ</a>
           <a href="#follow" class="nav-link w-nav-link">Follow</a>
@@ -48,29 +61,29 @@
     <div class="section-inner-hero">
       <div class="hero-text">
         <div class="hero-text-inner">
-          <div class="hero-text-block">We’re a community of like-minded kiwis, focused on improving the lives of New Zealanders by providing a platform for Bitcoin-focused education, resources, and events.<br><br>Our bigger mission is to create a new circular economy through the adoption of a new Bitcoin monetary standard. For the first time, money can’t be corrupted, and we believe this will create a better future.</div>
+          <div class="hero-text-block">Our goal is to promote a better understanding of Bitcoin, how it works, and why it is important for Kiwis. This website is a platform for Bitcoin-focused education, resources, and events.<br><br>Our vision is to grow a community of Kiwis Bitcoiners and a thriving circular economy through the adoption of Bitcoin as the monetary standard.<br><br>As a small and highly digital country, we think that New Zealand can become a global leader in the adoption of Bitcoin technology. <br></div>
           <a href="#about" class="hero-link hero-link-bitcoin w-inline-block">
-            <div class="hero-link-text">Why is Bitcoin Important?</div>
+            <div class="hero-link-text">What is Bitcoin?</div>
           </a>
           <a href="https://t.me/NZBitcoinersGroup" target="_blank" class="hero-link hero-link-telegram w-inline-block">
             <div class="hero-link-text">Join Telegram Group</div>
           </a>
         </div>
       </div>
-      <div class="hero-image"><img src="images/hero-image.jpg" loading="lazy" sizes="(max-width: 991px) 84vw, 42vw" srcset="images/hero-image-p-500.jpg 500w, images/hero-image-p-800.jpg 800w, images/hero-image-p-1080.jpg 1080w, images/hero-image.jpg 1100w" alt="" class="rounded-image"></div>
+      <div class="hero-image"><img src="images/hero-image.jpg" loading="lazy" sizes="(max-width: 991px) 84vw, 42vw" srcset="images/hero-image-p-500.jpg 500w, images/hero-image-p-800.jpg 800w, images/hero-image-p-1080.jpg 1080w, images/hero-image.jpg 1100w" alt="Bitcoiner white paper at a meetup" class="rounded-image"></div>
     </div>
   </div>
   <div id="meetups" class="section wf-section">
     <div class="section-inner">
       <div class="section-title-block"><img src="images/section-header-bitcoin.svg" loading="lazy" alt="">
-        <h1 class="section-title">Meetups in NZ</h1>
+        <h1 class="section-title">Events in NZ</h1>
       </div>
       <div class="section-description">
-        <div><strong>Community events are part of the heart of Bitcoin in NZ.<br>‍</strong><br>By bringing people from all walks of life together to discuss the technology and ideas behind Bitcoin.<br><br>Have a New Zealand Bitcoin Meetup to share? <a href="mailto:hello@nzbitcoiners.org">Get in touch.</a>
+        <div><strong>Community events and meetups are part of the heart of Bitcoin in New Zealand.<br>‍<br></strong>Events help bring people from all walks of life together to discuss the technology and ideas behind Bitcoin.<br><br>Have a New Zealand Bitcoin Meetup to share? <a href="mailto:hello@nzbitcoiners.org">Get in touch.</a>
         </div>
       </div>
       <div class="meetup-container">
-        <div class="meetup-image-container"><img src="images/meetup-image.jpg" loading="lazy" sizes="(max-width: 991px) 84vw, 100vw" srcset="images/meetup-image-p-500.jpg 500w, images/meetup-image-p-800.jpg 800w, images/meetup-image-p-1080.jpg 1080w, images/meetup-image.jpg 1100w" alt="" class="rounded-image"></div>
+        <div class="meetup-image-container"><img src="images/satoshi-giveaway.jpg" loading="lazy" sizes="(max-width: 991px) 84vw, 100vw" srcset="images/satoshi-giveaway.jpg 500w, images/satoshi-giveaway.jpg 800w, images/satoshi-giveaway.jpg 1080w, images/satoshi-giveaway.jpg 1500w" alt="Bitcoin meetup" class="rounded-image"></div>
         <div class="meetup-list">
           <h3>Coming Up</h3>
           <div class="meetup-upcoming-item">
@@ -107,18 +120,30 @@
   <div id="about" class="section section-gray wf-section">
     <div class="section-inner">
       <div class="section-title-block"><img src="images/section-header-bitcoin.svg" loading="lazy" alt="">
-        <h1 class="section-title">Why is Bitcoin Important?</h1>
+        <h1 class="section-title">Why is Bitcoin Important for NZ?</h1>
       </div>
       <div class="about-container">
         <div class="about-container-inner">
           <div>
-            <div class="about-text"><strong>Bitcoin is a new kind of digital commodity money launched in 2009. Think of Bitcoin like a digital version of gold. Bitcoin is native to the internet and like gold, does not require anyone’s permission to transact or trade.</strong><br><br>The increasing cost of living crisis in New Zealand and the world is due to the broken monetary policy of Governments who have had the ability to freely print money at zero cost. When there is no cost to print money, we get inflation and all parts of society feel the pinch. But when every dollar is backed by something real you are a lot more careful with how you use it.<br><br>Bitcoin, though digital, is unique in that it is backed by the energy used by the world’s largest decentralised network of computers. Bitcoin has a fixed supply which means the end of monetary inflation.<br><br>What the internet did for the way we interact with information is what bitcoin is doing to the way we think of money.<br><br>No banks, no governments, no owner and also no borders. Bitcoin is a global, decentralised and censorship resistant payments network that is already able to be used by merchants, retailers, and individuals. <br><br>Beyond a day to day asset and payment tool held by thousands of kiwis, Bitcoin is a positive social success, and is increasingly being used for remittance payments in developing nations, helping smaller nations avoid the debt trap, and to provide a way around financial censorship by governments.</div>
+            <h4 class="about-heading">Bitcoin is a new kind of digital money launched in 2009. Think of Bitcoin like a digital version of gold. </h4>
+            <div class="about-text">Bitcoin is native to the internet, and is a global, decentralised and censorship-resistant payment network. Bitcoin can be used by merchants, retailers, and individuals locally and internationally with minimal fees and no middlemen. </div>
+            <h4 class="about-heading">Shocked by your supermarket bill?</h4>
+            <div class="about-text">When there is no cost to print money, we get inflation and all parts of society feel the pinch. The increasing cost of living crisis in New Zealand and the world is due to the broken monetary policy of Governments who have had the ability to freely print money at zero cost. </div>
+            <h4 class="about-heading">Bitcoin fixes this.</h4>
+            <div class="about-text">Bitcoin is digital, but it is unique in that it cannot just be printed out of thin air. Bitcoin has a fixed supply backed by the energy of the world’s largest decentralised network of computers. Every Bitcoin requires a certain amount of real-world energy to generate, which gives it fundamental value.<br><br><strong>Bitcoin is like a better version of the gold standard, but for the digital era.</strong></div>
+            <h4 class="about-heading">What does Bitcoin mean for New Zealand?</h4>
+            <div class="about-text">Bitcoin enables lower fees, more secure and private transactions, and an alternative to constantly increasing prices caused by Government and Reserve Bank monetary policy.<br><br>What the internet did for the way we interact with information is what bitcoin is doing to the way we use money.</div>
+            <h4 class="about-heading">A Positive Social Story</h4>
+            <div class="about-text">Beyond a day-to-day asset and payment tool held by tens of thousands of kiwi individuals and businesses**, Bitcoin is a positive social success, and is increasingly being used for remittance payments to developing nations, helping smaller nations avoid the debt trap, and to provide a way around financial censorship.</div>
             <div class="about-reference">
               <a href="https://www.rbnz.govt.nz/-/media/project/sites/rbnz/files/publications/bulletins/2003/2003mar66-1matthews.pdf" target="_blank" class="link-2">*New Zealand has not had gold-backed money for over a 100 years (RBNZ, Page 45).</a>
             </div>
+            <div class="about-reference">
+              <a href="https://cfotech.co.nz/story/cryptocurrency-trading-in-nz-below-world-average-but-signs-show-increased-awareness" target="_blank" class="link-2">**CFO Tech NZ.</a>
+            </div>
           </div>
         </div>
-        <div class="about-image-container"><img src="images/payment.gif" loading="lazy" alt="" class="rounded-image"></div>
+        <div class="about-image-container"><img src="images/payment.gif" loading="lazy" alt="Bitcoin payment system" class="rounded-image"></div>
       </div>
     </div>
   </div>
@@ -126,7 +151,7 @@
     <div class="social">
       <a href="#" class="social-link-block w-inline-block"><img src="images/social-telegram.svg" loading="lazy" alt="">
         <h3 class="social-title">Telegram</h3>
-        <div class="social-text">This is our most used channel for bitcoin related discussion</div>
+        <div class="social-text">This is our most used channel for Bitcoin-related discussion</div>
       </a>
       <a href="https://t.me/NZBitcoinersGroup" target="_blank" class="follow-link w-inline-block">
         <div class="hero-link-text">Join Telegram Group</div>
@@ -150,14 +175,27 @@
       <div class="about-container">
         <div class="about-container-inner">
           <div class="about-wrapper">
-            <div class="about-text"><strong>Do I have to pay tax on Bitcoin income?</strong><br>For payments Bitcoin is a transfer of money from one form to another, and not an actual purchase that attracts GST. Think of it like a transport card top-up (Snapper, AT Hop, Metrocard, etc)<br><br>If you receive Bitcoin as business income then you will have to pay GST and income tax just the same as if you were receiving dollars <br><br>See <a href="https://www.ird.govt.nz/cryptoassets" target="_blank">IRD Cryptoassets guidance</a><br><br><strong>Isn&#x27;t Bitcoin Illegal?</strong><br>Absolutely not. In fact the NZ government and IRD already permit businesses to pay their staff in Bitcoin and there is clear statements from the Government and the Reserve Bank of New Zealand setting precedent using Bitcoin as a way to pay.<br><br><strong>Aren&#x27;t there many &quot;cryptocurrencies&quot;?</strong><br>There are a lot several off-shoot digital cash systems, some use the word &quot;Bitcoin&quot; in their names. Bitcoin however is the original, with a perfect launch and no trade offs. Bitcoin is the safest, most used, most decentralised, hard money we&#x27;ve ever had.<br><br><strong>What about all these hacks and exchanges going bust?</strong><br>If you leave your Bitcoin on an exchange or leave it with any 3rd party your funds may be at risk. If you self custody your own Bitcoin in your own Bitcoin wallet your funds are much safer.</div>
+            <h4 class="about-heading">Is Bitcoin legal in New Zealand?</h4>
+            <div class="about-text">Yes! In fact the New Zealand government and IRD already permit businesses to pay their staff in Bitcoin, there are registered Financial Service Providers (FSPs) operating in Bitcoin, along with clear statements from both the Government and the Reserve Bank of New Zealand setting a precedent for the legal use of Bitcoin.</div>
+            <h4 class="about-heading">Do I have to pay tax on Bitcoin?</h4>
+            <div class="about-text">For day-to-day payments, Bitcoin is considered a transfer of money from one form to another. Think of it like a transport card top-up (Snapper, AT Hop, Metrocard, etc).<br><br>If you receive Bitcoin as business income then you will have to pay GST and income tax just the same as if you were receiving dollars. <br><br>See <a href="https://www.ird.govt.nz/cryptoassets" target="_blank">IRD guidance</a>
+            </div>
+            <h4 class="about-heading">What is the impact of Bitcoin on the environment?</h4>
+            <div class="about-text">Bitcoin is powered by a decentralised network of specialised computers called <em>miners. </em>Bitcoin mining secures the network and helps give Bitcoin its value. <br><br>Bitcoin mining requires electricity and is no different than any other use of electrical power. However, mining is unique in that it tends to seek out areas where electricity is renewable, abundant, and low cost. <strong>In New Zealand this means Bitcoin mining is emerging as a key piece of co-locatable infrastructure alongside renewable hydro and wind generation assets.</strong><br><br>Because electrical power is &quot;use it or lose it&quot;, Bitcoin mining provides an important function as a load-balancing tool for the electrical grid.<br></div>
+            <h4 class="about-heading">Aren&#x27;t there many &quot;cryptocurrencies&quot;?</h4>
+            <div class="about-text">It is important to understand the difference between Bitcoin and &quot;Crypto&quot;. There are thousands of get-rich-quick &quot;cryptocurrencies&quot; that have emerged over the last few years which are highly volatile and often crash to zero. <br><br>Bitcoin however has been online for over 13 years and is the safest, most popular decentralised digital money we have. Unfortunately a lot of these &quot;cryptocurrencies&quot; are marketed alongside Bitcoin on online exchanges and can be confusing.<br></div>
+            <h4 class="about-heading">What about all these hacks and exchanges going bankrupt?</h4>
+            <div class="about-text">If you leave your Bitcoin on an exchange your funds may be at risk. It is important to learn to <a href="https://acceptbitcoin.nz/" target="_blank">self-custody your own Bitcoin in your own Bitcoin wallet</a> to keep it safe. If properly custodied, your Bitcoin is controlled only by you and cannot be taken from you.<br></div>
+            <h4 class="about-heading">Where can I buy Bitcoin?</h4>
+            <div class="about-text">There are a number of ways to buy Bitcoin in New Zealand, but as mentioned above <strong>it is important to choose the right way to buy and to understand the difference between Bitcoin and &quot;Crypto&quot;.<br></strong><br>We encourage you to attend a <a href="#meetups">Bitcoin event</a> first to learn more or you can <a href="#follow">reach out directly</a>.</div>
           </div>
         </div>
+        <div class="meetup-image-container"><img src="images/meetup-image.jpg" loading="lazy" sizes="(max-width: 991px) 84vw, 42vw" srcset="images/meetup-image-p-500.jpg 500w, images/meetup-image-p-800.jpg 800w, images/meetup-image-p-1080.jpg 1080w, images/meetup-image.jpg 1100w" alt="A Bitcoin miner" class="rounded-image"></div>
       </div>
     </div>
   </div>
   <div id="nzmade" class="section wf-section">
-    <div id="nzmade" class="section-inner">
+    <div class="section-inner">
       <div class="section-title-block"><img src="images/section-header-bitcoin.svg" loading="lazy" alt="">
         <h1 class="section-title">Made in New Zealand</h1>
       </div>
@@ -170,7 +208,7 @@
           <div class="nzamade-image-container"><img src="images/nzmade-accept-bitcoin.jpg" loading="lazy" alt="" sizes="(max-width: 479px) 17vw, 18vw" srcset="images/nzmade-accept-bitcoin-p-500.jpg 500w, images/nzmade-accept-bitcoin.jpg 500w" class="nzmade-image"></div>
           <div class="nzmade-text">
             <h4 class="nzmade-title"><strong>AcceptBitcoin.NZ</strong></h4>
-            <div class="nzmade-description">Find Accept Bitcoin on the web or <a href="https://twitter.com/AcceptBitcoinNZ" target="_blank">@acceptbitcoinnz</a> on twitter to learn more about how to accept bitcoin in your New Zealand business.</div>
+            <div class="nzmade-description">Learn more about how to get up and running with Bitcoin in New Zealand.</div>
             <a href="https://acceptbitcoin.nz/" target="_blank" class="more-link w-inline-block">
               <div class="more-link-text">Find Out More</div>
             </a>
@@ -215,7 +253,7 @@
         <h1 class="section-title">Resources</h1>
       </div>
       <div class="section-description">
-        <div>A collection of resources curated by the NZ Bitcoiners Group.<br></div>
+        <div>A collection of curated Bitcoin resources.<br></div>
       </div>
       <div class="resources-list">
         <h4 class="resources-subheading">Knowledge &amp; Discussion</h4>
@@ -229,11 +267,11 @@
         </div>
         <div class="resources-item">
           <a href="https://bitcoiner.guide/" target="_blank" class="resources-item-link">Bitcoiner.guide</a>
-          <div class="resources-item-description">Bitcoin Q&amp;A is well known in bitcoin for his bitcoin.guide and contributing to various projects in bitcoin</div>
+          <div class="resources-item-description">BitcoinQ&amp;A is well known in bitcoin for his bitcoin.guide and contributing to various projects in bitcoin</div>
         </div>
-        <h4 class="resources-subheading">Podcasts</h4>
+        <h4 class="resources-subheading">Podcasting 2.0</h4>
         <div class="resources-item">
-          <a href="#" class="resources-item-link">The Transformation of Value - A bitcoin Podcast by Cody Ellingham</a>
+          <a href="https://fountain.fm/show/yeyKUxKjAw151iZAQhcw" target="_blank" class="resources-item-link">The Transformation of Value - A bitcoin Podcast by Cody Ellingham</a>
           <div class="resources-item-description">An NZ-based Bitcoin Podcast.</div>
         </div>
         <div class="resources-item">
@@ -243,6 +281,14 @@
         <div class="resources-item">
           <a href="https://podcasts.apple.com/us/podcast/tftc-a-bitcoin-podcast/id1292381204" class="resources-item-link">TFTC: A Bitcoin Podcast</a>
           <div class="resources-item-description">TFTC is a podcast hosted by Marty Bent about Bitcoin. Join Marty, Editor in Chief of &quot;the best newsletter in Bitcoin&quot;, as he sits down to discuss Bitcoin with interesting people.</div>
+        </div>
+        <div class="resources-item">
+          <a href="https://value4value.info/" target="_blank" class="resources-item-link">value4value</a>
+          <div class="resources-item-description">value4value is a concept for how creators can monetise their content, writing, and podcasts via the Lightning Network over the likes of fountain.fm.</div>
+        </div>
+        <div class="resources-item">
+          <a href="https://fountain.fm/" target="_blank" class="resources-item-link">fountain.fm</a>
+          <div class="resources-item-description">Listen, learn, and earn for the value you bring to the platform by streaming sats over the Lightning Nework.</div>
         </div>
         <h4 class="resources-subheading">Get Setup With a Wallet</h4>
         <div class="resources-item">
@@ -256,7 +302,7 @@
       </div>
     </div>
   </div>
-  <div class="footer"><img src="images/nzbitcoiners-logo.svg" loading="lazy" alt="" class="footer-logo">
+  <div class="footer"><img src="images/nzbitcoiners-logo.svg" loading="lazy" alt="NZ Bitcoiners logo." class="footer-logo">
     <div class="footer-contact">
       <div class="footer-contact-text">For more information or to connect with us:<br>
         <a href="mailto:hello@nzbitcoiners.org">hello@nzbitcoiners.org</a>
