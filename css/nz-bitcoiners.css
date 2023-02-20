@@ -5,6 +5,10 @@ body {
   line-height: 20px;
 }
 
+p {
+  margin-bottom: 15px;
+}
+
 a {
   color: #f7931a;
   text-decoration: underline;
@@ -48,6 +52,23 @@ a {
 .nav-link {
   padding-right: 12px;
   padding-left: 12px;
+}
+
+.nav-link:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.nav-link:visited {
+  color: #fff;
+}
+
+.nav-link.w--current {
+  color: #fff;
+}
+
+.nav-link.w--current:hover {
+  color: #fff;
 }
 
 .nav-logo {
@@ -105,6 +126,10 @@ a {
 
 .section.section-follow {
   min-height: 40vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   background-color: #f7931a;
 }
 
@@ -113,7 +138,7 @@ a {
 }
 
 .section.section-collapse {
-  min-height: auto;
+  min-height: 80vh;
 }
 
 .hero-text {
@@ -182,14 +207,14 @@ a {
   border-radius: 100px;
 }
 
-.hero-link.hero-link-telegram {
+.hero-link.hero-link-email {
   margin-bottom: 0px;
   padding-right: 30px;
   padding-left: 60px;
   border-radius: 100px;
-  background-image: url('../images/hero-button-telegram.svg');
-  background-position: 0px 0px;
-  background-size: contain;
+  background-image: url('../images/hero-email.svg');
+  background-position: 0% 50%;
+  background-size: auto;
 }
 
 .hero-link-text {
@@ -314,7 +339,7 @@ a {
   text-decoration: none;
 }
 
-.social {
+.contact {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -330,6 +355,14 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.contact.contact-telegram {
+  padding-right: 100px;
+}
+
+.contact.contact-email {
+  padding-left: 100px;
 }
 
 .social-link-block {
@@ -362,6 +395,7 @@ a {
 
 .social-text {
   color: #fff;
+  text-align: center;
 }
 
 .about-container-inner {
@@ -551,6 +585,184 @@ a {
   width: 80%;
 }
 
+.article-title-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 720px;
+  margin-bottom: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.article-inner {
+  width: 100%;
+  height: 100%;
+  max-width: 1800px;
+  padding: 80px 8vw;
+}
+
+.article {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.article.section-hero {
+  width: 100%;
+  min-height: auto;
+  min-width: 100%;
+  background-color: #2e2e2e;
+}
+
+.article.section-follow {
+  min-height: 40vh;
+  background-color: #f7931a;
+}
+
+.article.section-gray {
+  background-color: #f8f8f8;
+}
+
+.article.section-collapse {
+  min-height: auto;
+}
+
+.article-content {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.article-content-rich-text {
+  max-width: 720px;
+}
+
+.article-title {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-left: 0px;
+}
+
+.article-author {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  font-weight: 400;
+}
+
+.article-list {
+  width: 100%;
+  height: 100%;
+  max-width: 1800px;
+  min-height: 80vh;
+  padding: 80px 8vw;
+}
+
+.article-copy {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.article-copy.section-hero {
+  width: 100%;
+  min-height: auto;
+  min-width: 100%;
+  background-color: #2e2e2e;
+}
+
+.article-copy.section-follow {
+  min-height: 40vh;
+  background-color: #f7931a;
+}
+
+.article-copy.section-gray {
+  background-color: #f8f8f8;
+}
+
+.article-copy.section-collapse {
+  min-height: auto;
+}
+
+.contact-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact-container-inner {
+  width: 50%;
+}
+
+.contact-rich-text {
+  max-width: 80%;
+}
+
+.article-back {
+  margin-bottom: 10px;
+}
+
+.follow {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 40px;
+  padding-left: 40px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.follow.follow-telegram {
+  padding-right: 100px;
+}
+
+.follow.follow-email {
+  padding-left: 100px;
+}
+
+.article-contributors {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  font-style: normal;
+  font-weight: 400;
+}
+
 @media screen and (max-width: 991px) {
   .section-inner-hero {
     -webkit-box-orient: vertical;
@@ -598,7 +810,7 @@ a {
     padding-left: 60px;
   }
 
-  .hero-link.hero-link-telegram {
+  .hero-link.hero-link-email {
     margin-bottom: 0px;
     padding-right: 30px;
     padding-left: 60px;
@@ -655,6 +867,20 @@ a {
     color: #fff;
   }
 
+  .contact {
+    width: 50%;
+  }
+
+  .contact.contact-telegram {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .contact.contact-email {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
   .social-text {
     margin-bottom: 10px;
     text-align: center;
@@ -701,10 +927,6 @@ a {
     font-size: 16px;
   }
 
-  .footer-link-text {
-    color: #2e2e2e;
-  }
-
   .footer-contact-text {
     margin-bottom: 10px;
   }
@@ -719,6 +941,50 @@ a {
   .more-link-text {
     color: #fff;
   }
+
+  .article-inner {
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+  }
+
+  .article-content {
+    width: auto;
+  }
+
+  .article-list {
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+  }
+
+  .contact-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .contact-container-inner {
+    width: auto;
+  }
+
+  .contact-rich-text {
+    max-width: none;
+  }
+
+  .follow {
+    width: 50%;
+  }
+
+  .follow.follow-telegram {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .follow.follow-email {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -731,7 +997,7 @@ a {
     padding-left: 60px;
   }
 
-  .hero-link.hero-link-telegram {
+  .hero-link.hero-link-email {
     padding-right: 30px;
     padding-left: 60px;
   }
@@ -742,6 +1008,18 @@ a {
 
   .footer {
     height: auto;
+  }
+
+  .article-title-block {
+    margin-bottom: 20px;
+  }
+
+  .article-author {
+    font-size: 16px;
+  }
+
+  .article-contributors {
+    font-size: 16px;
   }
 }
 
@@ -766,7 +1044,7 @@ a {
     border-radius: 100px;
   }
 
-  .hero-link.hero-link-telegram {
+  .hero-link.hero-link-email {
     padding-right: 20px;
     padding-left: 40px;
   }
@@ -784,13 +1062,14 @@ a {
 
   .section-title {
     font-size: 32px;
+    line-height: 38px;
   }
 
   .follow-link {
     text-align: center;
   }
 
-  .social {
+  .contact {
     padding-bottom: 40px;
   }
 
@@ -816,6 +1095,8 @@ a {
 
   .footer {
     height: auto;
+    padding-right: 20px;
+    padding-left: 20px;
   }
 
   .nzmade-text {
@@ -843,6 +1124,52 @@ a {
 
   .more-link-text {
     text-align: center;
+  }
+
+  .article-inner {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .article.section-follow {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .article-title {
+    font-size: 32px;
+  }
+
+  .article-list {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .article-copy.section-follow {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .follow {
+    padding-bottom: 40px;
+  }
+
+  .follow.follow-telegram {
+    width: 100%;
+  }
+
+  .follow.follow-email {
+    width: 100%;
   }
 }
 
