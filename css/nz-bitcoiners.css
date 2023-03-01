@@ -741,6 +741,10 @@ a {
   margin-bottom: 10px;
 }
 
+.article-link {
+  margin-bottom: 10px;
+}
+
 .follow {
   display: -webkit-box;
   display: -webkit-flex;
